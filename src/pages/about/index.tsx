@@ -10,9 +10,9 @@ const About = () => {
     return (
         <div>
             <Navbar/>
-            <div className="justify-center p-5 flex-col">
+            <div className="justify-center p-5">
                 <h1 className="text-4xl font-bold text-center p-4 text-purple-600">About me 🤗</h1>
-                <div className="flex-row flex-wrap">
+                <div className="flex flex-wrap justify-around">
                     <GeneralInfo/>
                     <HobbiesList/>
                     <ProgrammingLangs/>
