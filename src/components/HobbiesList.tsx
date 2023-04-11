@@ -3,7 +3,7 @@ import { hobbies } from '../data';
 
 const HobbiesList: React.FC = () => {
     return (
-        <div className='flex-col border border-blue-600 rounded-lg p-2' style={{width: "27rem"}}>
+        <div className='flex-col border border-blue-600 rounded-lg p-2' style={{width: "min(27rem, 90vw)", backgroundColor: "#001e3c"}}>
             <div className="text-3xl text-center p-1 b-3 text-blue-600">
                 My hobbies include:
             </div>

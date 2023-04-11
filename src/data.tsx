@@ -29,3 +29,10 @@ export const hobbies: Hobby[] = [
     { id: 3, title: 'Playing video games 🎮', url: '/about/games' },
     { id: 4, title: 'Cycling 🚴‍♂️', url: '/contact/cycling' },
 ];
+
+export const navTabs: Tab[] = [
+    { id: 1, title: 'Home', url: '/' },
+    { id: 2, title: 'About', url: '/about' },
+    { id: 3, title: 'Contact', url: '/contact' },
+    { id: 4, title: 'Projects', url: '/projects' },
+];

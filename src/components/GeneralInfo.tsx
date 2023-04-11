@@ -1,6 +1,6 @@
 const GeneralInfo = () => {
     return (
-        <div className='flex border border-blue-600 rounded-lg p-2' style={{width: "30rem"}}>
+        <div className='flex border border-blue-600 rounded-lg p-2' style={{width: "min(30rem, 90vw)", backgroundColor: "#001e3c"}}>
             <div>
                 <div className="text-3xl p-1 text-center text-blue-600">
                     Short info about me:

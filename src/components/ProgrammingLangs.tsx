@@ -4,7 +4,7 @@ import Stars from './Stars';
 
 const Technologies = () => {
     return (
-        <div className='flex-col border border-blue-600 rounded-lg p-2' style={{width: "20rem"}}>
+        <div className='flex-col border border-blue-600 rounded-lg p-2' style={{width: "20rem", backgroundColor: "#001e3c"}}>
             <div className="text-3xl text-center p-1 b-3 text-blue-600">
                 My programming languages:
             </div>
