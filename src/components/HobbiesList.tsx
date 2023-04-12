@@ -10,7 +10,7 @@ const HobbiesList: React.FC = () => {
             <div className="flex justify-center p-5">
                 <ul className="list-disc list-inside p-3">
                     {hobbies.map((hobby) => (
-                        <li key={hobby.id} className='text-2xl text-pink-800'>{hobby.title}</li>
+                        <li key={hobby.id} className='text-2xl' style={{color: "#f3f6f9"}}>{hobby.title}</li>
                     ))}
                 </ul>
             </div>
