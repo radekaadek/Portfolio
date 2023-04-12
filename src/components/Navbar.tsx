@@ -27,7 +27,7 @@ export default function DenseAppBar() {
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static">
             <Toolbar variant="dense">
-              <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+              <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} href='/'>
                 <Image src="/77837063.jpg" alt="logo" width={50} height={50} />
               </IconButton>
               {navTabs.map((tab) => (
