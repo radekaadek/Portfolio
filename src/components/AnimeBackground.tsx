@@ -27,7 +27,7 @@ const AnimeBackground: React.FC = () => {
             >
             </video>
             <div className="text-center relative left-0 right-0 pt-20">
-                <h1 className="text-5xl font-bold text-blue-200" style={{fontSize: "min(3rem,10vw)"}}>Welcome on my website!</h1>
+                <h1 className="text-5xl font-bold text-blue-200" style={{fontSize: "min(3rem,10vw)"}}>Welcome to my website!</h1>
                 <h2 className="text-3xl font-bold text-cyan-300">I&apos;m radekaadek</h2>
             </div>
         </div>
