@@ -15,19 +15,20 @@ const AnimeBackground: React.FC = () => {
     }, [controls, inView]);
     
     return (
-        <div className="w-screen relative">
+        <div className='h-64'>
             <video
                 ref={ref}
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="absolute inset-0 h-64 w-screen object-cover opacity-50"
+                className="w-screen h-64 object-cover opacity-50 absolute"
                 src="/live-wallpaper.mp4"
-            />
-            <div className="text-center relative">
-                <h1 className="text-5xl font-bold text-white">Welcome to my website!</h1>
-                <h2 className="text-2xl font-bold text-white">I&apos;m radekaadek</h2>
+            >
+            </video>
+            <div className="text-center relative left-0 right-0 pt-20">
+                <h1 className="text-5xl font-bold text-blue-200" style={{fontSize: "min(3rem,10vw)"}}>Welcome on my website!</h1>
+                <h2 className="text-3xl font-bold text-cyan-300">I&apos;m radekaadek</h2>
             </div>
         </div>
     );
