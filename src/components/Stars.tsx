@@ -5,7 +5,9 @@ const Stars = ({amount: ammount}: {amount: number}) => {
     }
     return (
         <div className="flex justify-center">
-            {stars}
+            {stars.map((star, index) => (
+                <span key={index}>{star}</span>
+            ))}
         </div>
     )
 }
