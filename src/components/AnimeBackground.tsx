@@ -1,5 +1,3 @@
-// autoplay the live-wallpaper.mp4
-
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';

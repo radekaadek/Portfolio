@@ -4,6 +4,7 @@ import HobbiesList from '@/components/HobbiesList';
 import Navbar from '@/components/Navbar';
 import AnimeBackground from '@/components/AnimeBackground';
 import ProgrammingLangs from '@/components/ProgrammingLangs';
+import OtherTools from '@/components/OtherTechnologies';
 import Head from 'next/head';
 import * as React from 'react';
 
@@ -23,6 +24,7 @@ const Home = () => {
                     <GeneralInfo/>
                     <HobbiesList/>
                     <ProgrammingLangs/>
+                    <OtherTools/>
                 </div>
             </div>
             <Footer/> 

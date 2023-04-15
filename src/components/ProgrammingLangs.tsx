@@ -12,7 +12,8 @@ const ProgrammingLangs = () => {
                 <ul className="list-disc list-inside p-3">
                     {programmingLanguages.map((language) => (
                         <span key={language.id} className='flex text-2xl' style={{color: "#f3f6f9"}}>
-                            <Link className="pr-10" href={language.url}>
+                            <div className="my-auto">{language.img}</div>
+                            <Link className="pr-10 ml-3" href={language.url}>
                                 {language.title}
                             </Link>
                             <div className="flex ml-auto" key={language.id}>
