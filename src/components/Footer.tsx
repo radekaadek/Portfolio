@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
     return (
-      <div className="bg-gray-800 fixed bottom-0 p-1 w-full">
+      <div className="bg-gray-800 fixed bottom-0 p-1 w-fit">
         <div className="max-w-screen-xl mx-auto">
           <span className="text-l text-white">Made with </span>
           <Link href="https://nextjs.org/" key="nextjs.org" className="text-blue-600">

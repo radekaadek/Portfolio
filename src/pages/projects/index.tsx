@@ -1,19 +1,16 @@
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
 import Head from 'next/head';
 import * as React from 'react';
+import Layout from '@/components/Layout';
 
 
 const Contact = () => {
     return (
-        <div>
+        <Layout>
             <Head>
                 <title>My projects</title>
                 <meta name="description" content="My projects page" />
             </Head>
-            <Navbar/>
-            <Footer/> 
-        </div>
+        </Layout>
     );
 };
 
