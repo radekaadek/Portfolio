@@ -8,6 +8,7 @@ import * as React from 'react';
 import Layout from '@/components/Layout';
 import { FaMagento } from 'react-icons/fa';
 import Familiada from '@/components/Familiada';
+import Kapliczki from '@/components/Kapliczki';
 
 
 const Home = () => {
@@ -27,10 +28,10 @@ const Home = () => {
                     <OtherTools/>
                 </div>
             </div>
-            <div className="w-full" style={{backgroundColor: "#3399ff", height: "6vh"}}></div>
+            <div className="w-full" style={{backgroundColor: "#3399ff", height: "4vh"}}></div>
             <h1 className="text-4xl font-bold text-center p-4 text-purple-600 h-fit">My personal projects 📝</h1>
-            {/* a big familiada in the center */}
             <Familiada/>
+            <Kapliczki/>
         </Layout>
     );
 };
