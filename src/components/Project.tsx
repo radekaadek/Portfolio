@@ -9,7 +9,7 @@ const Project = (title: string, images: ImageProps[], text: JSX.Element) => {
             </div>
             <div className="flex flex-row justify-center">
                 <div className="text-center my-3 justify-center flex flex-col">
-                    <div className=" border-blue-600 border my-2 p-3 w-1/2 flex">
+                    <div className="border-blue-600 border my-2 p-3 w-1/2 self-center flex">
                         {text}
                     </div>
                     <div className="flex flex-row flex-wrap justify-evenly">

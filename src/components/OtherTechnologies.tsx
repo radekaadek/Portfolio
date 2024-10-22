@@ -8,10 +8,14 @@ const OtherTools = () => {
             </div>
             <div className="flex justify-center p-5">
                 <ul className="list-disc list-inside p-3 w-fit">
+                    <span className='flex text-2xl' style={{color: "#f3f6f9"}} key={1}>
+                        <div className="mr-10">Neovim</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" className="ml-auto" style={{width: "24px", height: "24px", alignSelf: "center"}}></img>
+                    </span>
                     {otherTools.map((hobby) => (
                             <span className='flex text-2xl' style={{color: "#f3f6f9"}} key={hobby.id}>
                                 <div className="mr-10">{hobby.title}</div>
-                                <div className="ml-auto">{hobby.img}</div>
+                                <div className="ml-auto" style={{alignSelf: "center"}}>{hobby.img}</div>
                             </span>
                     ))}
                 </ul>
