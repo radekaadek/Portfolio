@@ -28,7 +28,7 @@ const Home = () => {
                     <OtherTools/>
                 </div>
             </div>
-            <div className="w-full" style={{backgroundColor: "#3399ff", height: "4vh"}}></div>
+            <div className="w-full my-4" style={{backgroundColor: "#3399ff", height: "4vh"}}></div>
             <h1 className="text-4xl font-bold text-center p-4 text-purple-600 h-fit">My personal projects 📝</h1>
             <Familiada/>
             <Kapliczki/>
