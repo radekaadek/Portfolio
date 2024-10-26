@@ -29,7 +29,8 @@ const Familiada = () => {
                 <span className="p-3 text-xl text-center" style={{color: "#f3f6f9", paddingLeft: "6px"}}>
                     that creates an interface for conducting the polish TV show &quot;Familiada&quot; in Python using Pygame and the Tkinter library.
                 </span>
-            </div>
+            </div>,
+            "https://github.com/PlohnenSoftware/familiada_ZSP",
         )
     )
 }
