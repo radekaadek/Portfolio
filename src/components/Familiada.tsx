@@ -21,7 +21,7 @@ const Familiada = () => {
                     className: ""
                 }
             ],
-            <div>
+            <div className="w-full">
                 <span className="p-3 text-xl text-center" style={{color: "#f3f6f9", paddingRight: "6px"}}>A desktop app created with my friend</span>
                 <Link href="github.com/xKRISTOFx" passHref legacyBehavior>
                 <span className="text-xl text-center text-blue-500 hover:cursor-pointer">xKRISTOFx</span>
